@@ -13,6 +13,25 @@ Requires RMagick.
     makeicons.py filename
 
 
+newproject
+----------
+
+Script to create new project based on following structure:
+
+    - web
+        - downloads html5boilerplate from git
+    - corona
+        - assets
+            - downloads python-scripts from git
+            - removes git files
+        - [project-name]
+            - downloads corona-boilerplate from git
+            - copies /corona/assets/makeicons.py to /corona/[project-name]
+            - removes git files
+        - physics
+        - distribution
+            - v1.0
+
 resizepng
 ---------
 
