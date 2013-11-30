@@ -10,7 +10,7 @@ makeicons
 Generates list of icons for use within mobile app development from image (iOS & Android).
 Requires RMagick.
 
-    makeicons.py filename
+    makeicons.py [filename]
 
 
 newproject
@@ -18,6 +18,8 @@ newproject
 
 Script to create new project based on following structure:
 
+    newproject.py [project-name]
+    
     - web
         - downloads html5boilerplate from git
     - corona
