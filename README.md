@@ -1,12 +1,14 @@
-Python Scripts
+python-scripts
 ==============
+
+Various scripts for Web and Corona SDK mobile development.
 
 
 makeicons
 ---------
 
 Generates list of icons for use within mobile app development from image (iOS & Android).
-Requires RMagick
+Requires RMagick.
 
     makeicons.py filename
 
@@ -18,4 +20,4 @@ For dynamic image resizing using Texture Packer, Corona requires all HD assets m
 dividable by 2 to even number at 100%, 50% and 25% to avoid blurring. 
 
 This script resizes all PNGs in the current script folder and increases the width and 
-height accordingly. Requires RMagick
+height accordingly. Requires RMagick.
